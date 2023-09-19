@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/*box {
+  width: 50%;
+  padding: 10px;
+  overflow-x: hidden;
+}*/
+
+box {
+  float: left;
+  margin-left: 15px;
+  clear: both;
+}
+
+blue {
+  background-color: blue;
+}
+
+.container {
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+div#fineHeader {
+  background-color: #282c34;
+  padding: 40px;
+  color: #CCCCCC;
+  text-align: left;
+  text-shadow: 3px 3px 6px #000000;
+}
+
+h1.niceh1, h1.niceh12 {
+  display: inline;
+  font-weight: bold;
+  color: #EEEEEE;
+}
+
+h1.niceh12 {
+  color: #282c34;
+}
+
+img#headerPng {
+  width: 200px;
+  vertical-align: middle;
+  float: left;
+  clear: both;
+  margin-right: 40px;
+  margin-left: 30%;
+  box-shadow: 3px 3px 4px #000000;
+}
+
+div.niceList {
+  padding: 5px;
+  border: 1px solid #AAAAEE;
+  border-radius: 5px;
+  margin: 15px;
+  display: inline-block;
+  text-align: left;
+  box-shadow: 2px 2px 5px #282c34;
+}
+
+div.bumpLeft {
+  width: 90%;
+  float: right;
+  clear: both;
+}
+
+div.right {
+  width: 100%;
+  text-align: right;
+}
+
+p.pleft{
+  text-align: left;
+  margin: 15px;
+}
+
+div#searchVideosForm {
+  overflow-y: scroll;
+  min-width: 200px;
+  padding: 15px;
+  border: 1px solid #61dafb;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #282c34;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  float: left;
+}
+
+div.messageBox {
+  display: inline;
+  margin-left: 20px;
+  clear: both;
+}
+
+a.linkToDetail {
+  text-decoration: none;
+  color: #61dafb;
+}
+form[input].searchForm {
+  width: 50%;
+}
+
+p.messageDisplay {
+  text-align: left;
+  padding: 10px;
+  color: green;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+a.closeMessage {
+  color: #282c34;
+  text-decoration: underline;
+  font-size: smaller;
+}
